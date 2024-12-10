@@ -9,17 +9,18 @@ export async function mostrarProductos() {
       const listaProductos = document.getElementById('lista-productos');
       listaProductos.innerHTML = '';
 
-      productos.forEach(producto => {
-          const item = document.createElement('div');
-          item.classList.add('producto');
-          item.innerHTML = `
-              <img src="${producto.imagen}" alt="${producto.nombre}">
-              <h3>${producto.nombre}</h3>
-              <p>Precio: $${producto.precio}</p>
-              <button onclick="agregarAlCarrito(${producto.id})">Agregar al Carrito</button>
-          `;
-          listaProductos.appendChild(item);
-      });
+      productos.forEach((producto) => {
+        const item = document.createElement('div');
+        item.classList.add('producto');
+        item.innerHTML = `
+            <img src="${producto.imagen}" alt="${producto.nombre}">
+            <h3>${producto.nombre}</h3>
+            <p>Precio: $${producto.precio}</p>
+            <button onclick="agregarAlCarrito(${producto.id})">Agregar al Carrito</button>
+        `;
+        listaProductos.appendChild(item);
+    });
+    
   } catch (error) {
       console.error('Error al cargar los productos:', error);
   }
@@ -74,4 +75,5 @@ export function finalizarCompra() {
         actualizarCarrito();
     }
 }
+
 
