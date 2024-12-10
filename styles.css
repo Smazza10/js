@@ -37,6 +37,7 @@ button {
 button:hover {
     background: #0056b3;
 }
+
 .producto {
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -46,11 +47,40 @@ button:hover {
 }
 
 .producto img {
-    max-width: 100%;
+    max-width: 15%;
     height: auto;
     border-radius: 5px;
 }
 
 .producto button {
     margin-top: 10px;
+}
+
+/* Estilos para el carrito */
+#carrito {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#carrito h2 {
+    margin-bottom: 10px;
+}
+
+#carrito p {
+    font-weight: bold;
+}
+
+#lista-carrito {
+    margin-bottom: 10px;
+}
+
+#finalizar-compra {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#finalizar-compra:hover {
+    background-color: #218838;
 }

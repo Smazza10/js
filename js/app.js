@@ -1,5 +1,5 @@
 // Importar funciones
-import { mostrarProductos, actualizarCarrito, finalizarCompra } from './funciones.js';
+import { mostrarProductos, finalizarCompra } from './funciones.js';
 
 // Al cargar la página
 document.addEventListener('DOMContentLoaded', () => {

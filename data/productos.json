@@ -1,7 +1,7 @@
 [
-    { "id": 1, "nombre": "Camiseta", "precio": 500, "imagen": "../assets/camiseta.jpg" },
-    { "id": 2, "nombre": "Pantalón", "precio": 800, "imagen": "../assets/pantalon.jpg" },
-    { "id": 3, "nombre": "Zapatillas", "precio": 1200, "imagen": "../assets/zapatillas.jpg" },
-    { "id": 4, "nombre": "Gorra", "precio": 300, "imagen": "../assets/gorra.jpg" },
-    { "id": 5, "nombre": "Bufanda", "precio": 200, "imagen": "../assets/bufanda.jpg" }
+    { "id": 1, "nombre": "Camiseta", "precio": 500, "imagen": "assets/camiseta.jpg" },
+    { "id": 2, "nombre": "Pantalón", "precio": 800, "imagen": "assets/pantalon.jpg" },
+    { "id": 3, "nombre": "Zapatillas", "precio": 1200, "imagen": "assets/zapatillas.jpg" },
+    { "id": 4, "nombre": "Gorra", "precio": 300, "imagen": "assets/gorra.jpg" },
+    { "id": 5, "nombre": "Bufanda", "precio": 200, "imagen": "assets/bufanda.jpg" }
 ]
